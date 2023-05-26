@@ -17,4 +17,6 @@ func main() {
 		}
 	}()
 	wg.Wait()
+
+	fmt.Println("this is the end of main")
 }
