@@ -7,7 +7,7 @@ import (
 
 func main() {
 	fmt.Println("hello world")
-	
+
 	wg := sync.WaitGroup{}
 	wg.Add(1)
 	go func() {
@@ -18,5 +18,5 @@ func main() {
 	}()
 	wg.Wait()
 
-	fmt.Println("this is the end of main")
+	fmt.Println("this is the end of main.")
 }
